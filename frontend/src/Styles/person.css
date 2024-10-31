@@ -1,0 +1,75 @@
+/* ./Styles/person.css */
+.person-container {
+  margin: 20px auto;
+  padding: 20px;
+  /* Optional: limit width for better appearance */
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.person-container .create {
+  font-size: 1rem;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.create-user-button {
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+  float: right;
+}
+.person-container .person-list {
+  display: block;
+}
+.remove-user-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  font-size: 0.9rem;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+.person-card {
+  display: flex;
+  padding-top: 2rem;
+  padding-left: 3rem;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+}
+.line {
+  margin: 0.8rem 0 0;
+}
+.person-card:hover {
+  background-color: #f1f1f1;
+}
+
+.person-details {
+  flex-grow: 1;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+}

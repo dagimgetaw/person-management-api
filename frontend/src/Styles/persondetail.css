@@ -1,0 +1,63 @@
+.person-detail-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 400px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.person-detail-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+  text-align: center;
+}
+
+.person-detail-container h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.person-detail-container p {
+  font-size: 1.1rem;
+  margin: 5px 0;
+  color: #555;
+}
+
+.error {
+  color: red;
+  text-align: center;
+}
+
+.loading {
+  text-align: center;
+  font-size: 1.2em;
+  color: #666;
+}
+
+/* Other styles you may have */
+.person-container {
+  margin: 20px auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+  text-align: center;
+}
+
+.person-list {
+  display: block;
+}
+
+.person-card {
+  display: grid;
+  padding-top: 2rem;
+  padding-left: 3rem;
+}

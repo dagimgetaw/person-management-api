@@ -1,0 +1,42 @@
+.create-user-container {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 600px;
+}
+
+.create-user-container h1 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #4a90e2;
+  text-align: center;
+  padding: 3rem 0 1rem;
+}
+
+.create-user-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.create-user-container label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.create-user-container input {
+  padding: 0.5rem 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-left: 3rem;
+}
+.create-user-container button {
+  background-color: #4a90e2;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  color: white;
+}
